@@ -23,7 +23,7 @@
 ### Backend & AI Infra
 | 기술 | 용도 |
 |------|------|
-| Java/Python (FastAPI) | 비동기 기반 REST API 서버 구축 |
+| Python (FastAPI) | 비동기 기반 REST API 서버 구축 |
 | SQLAlchemy | MariaDB ORM 매핑 및 데이터베이스 스키마 설계 |
 | Redis | 인증 코드 캐싱 및 실시간 메시지 브로커 |
 | Docker Compose | 전체 서비스 컨테이너화 |
