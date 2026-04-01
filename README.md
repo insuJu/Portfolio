@@ -20,7 +20,7 @@
 
 ## 기술 스택
 
-### Backend & AI Infra
+### Backend & Infra
 | 기술 | 용도 |
 |------|------|
 | Python (FastAPI) | 비동기 기반 REST API 서버 구축 |
