@@ -1,6 +1,11 @@
 # Readfile
 
-> **AI 기반 대화, 문서 분석 및 협업 RAG 플랫폼**
+> **AI 기반 문서 분석 및 협업 RAG 플랫폼**
+> 
+> 복잡한 문서(판례, 계약서 등)를 AI가 분석하고, 사용자가 대화형 인터페이스를 통해 필요한 정보를 즉각적으로 추출할 수 있도록 돕는 협업 툴입니다.
+
+[**배포 URL (Readfile)**](https://jiyun.dev)  
+[**Team Repository**](https://github.com/ArchitectureReadFile/mainproject)
 
 ---
 
