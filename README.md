@@ -1,9 +1,9 @@
-# Readfile
+# ReadLaw
 
 > **AI 기반 문서 분석 및 협업 RAG 플랫폼**
 > 
 
-[**배포 URL (Readfile)**](https://jiyun.dev)  
+[**배포 URL (ReadLaw)**](https://jiyun.dev)  
 [**Team Repository**](https://github.com/ArchitectureReadFile/mainproject)
 
 ---
