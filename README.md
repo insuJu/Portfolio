@@ -43,18 +43,20 @@
 ```text
 backend/
 ├── models/
-│   └── model.py                  
+│   └── model.py
 ├── routers/
-│   ├── auth.py                   
+│   ├── auth.py
 │   ├── oauth.py
-│   ├── notification.py           
-│   ├── chat.py                   
-│   └── ws.py                     
+│   ├── notification.py
+│   ├── chat.py
+│   └── ws.py
 ├── services/
 │   ├── auth_service.py
 │   ├── oauth_service.py
-│   ├── chat(chat_processor.py, chat_service.py)        
-│   └── notification_service.py   
+│   ├── chat/
+│   │   ├── chat_processor.py
+│   │   └── chat_service.py
+│   └── notification_service.py
 └── repositories/
     └── oauth_repository.py
 ```
@@ -63,20 +65,34 @@ backend/
 ```text
 src/
 ├── api/
-│   └── client.js                 
+│   └── client.js
 ├── features/
-│   ├── auth/                     
-│   │   ├── context/AuthContext.jsx
-│   │   └── utils/authCookie.js
-│   ├── notification/             
-│   │   ├── context/NotificationContext.jsx
-│   │   └── components/NotificationToast.jsx
-│   └── chat/                     
-│       └── components/ChatWidget.jsx
+│   ├── auth/
+│   │   ├── api/
+│   │   │   └── authApi.js
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   └── utils/
+│   │       └── authCookie.js
+│   ├── notification/
+│   │   ├── api/
+│   │   │   └── notification.js
+│   │   ├── components/
+│   │   │   └── NotificationToast.jsx
+│   │   ├── context/
+│   │   │   └── NotificationContext.jsx
+│   │   └── hooks/
+│   │       └── useNotification.js
+│   └── chat/
+│       ├── components/
+│       │   └── ChatWidget.jsx
+│       └── hooks/
+│           └── useChat.js
 └── pages/
-    ├── Landing/                  
-    └── Mypage/                   
-        └── components/SocialSection.jsx
+    ├── Landing/
+    └── Mypage/
+        └── components/
+            └── SocialSection.jsx
 ```
 
 ---
